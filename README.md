@@ -1,6 +1,6 @@
 # React Quizz Web App
 
-Fun little React Quizz that tests your knowledge with 15 questions about React concepts. Built to highlight the usage of the `useReduce` React hook.
+Fun little React Quizz that tests your knowledge with 15 questions about React concepts. Built to highlight the usage of the `useReducer` React hook.
 
 Project based on [The Ultimate React Course 2023](https://www.udemy.com/course/the-ultimate-react-course/) by Jonas Schmedtmann.
 
