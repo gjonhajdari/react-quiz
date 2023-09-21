@@ -1,7 +1,7 @@
 import { useQuiz } from "../context/QuizContext";
 
-function Options() {
-  const { question, answer, newAnswer } = useQuiz();
+function Options({ question }) {
+  const { answer, dispatch } = useQuiz();
   const hasAnswered = answer !== null;
 
   return (
@@ -18,7 +18,7 @@ function Options() {
             }`}
             key={option}
             disabled={hasAnswered}
-            onClick={newAnswer}
+            onClick={() => dispatch({ type: "newAnswer", payload: index })}
           >
             {option}
           </button>
